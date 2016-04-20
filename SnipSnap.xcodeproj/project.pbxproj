@@ -16,6 +16,8 @@
 		391291C31CC6BFA500855E3F /* Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 391291C01CC6BFA500855E3F /* Plus.png */; };
 		391291C41CC6BFA500855E3F /* Share.png in Resources */ = {isa = PBXBuildFile; fileRef = 391291C11CC6BFA500855E3F /* Share.png */; };
 		391291C51CC6BFA500855E3F /* Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 391291C21CC6BFA500855E3F /* Star.png */; };
+		F29AEFC41CC7A74200088F85 /* menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = F29AEFC31CC7A74200088F85 /* menu2.png */; };
+		F2A25E7E1CC76EC50061D893 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A25E7D1CC76EC50061D893 /* camera.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		391291C01CC6BFA500855E3F /* Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plus.png; sourceTree = "<group>"; };
 		391291C11CC6BFA500855E3F /* Share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Share.png; sourceTree = "<group>"; };
 		391291C21CC6BFA500855E3F /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star.png; sourceTree = "<group>"; };
+		F29AEFC31CC7A74200088F85 /* menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu2.png; sourceTree = "<group>"; };
+		F2A25E7D1CC76EC50061D893 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				391291A01CC6934300855E3F /* AppDelegate.m */,
 				391291A21CC6934400855E3F /* ViewController.h */,
 				391291A31CC6934400855E3F /* ViewController.m */,
+				F29AEFC31CC7A74200088F85 /* menu2.png */,
+				F2A25E7D1CC76EC50061D893 /* camera.png */,
 				391291A51CC6934500855E3F /* Main.storyboard */,
 				391291A81CC6934500855E3F /* Assets.xcassets */,
 				391291AA1CC6934500855E3F /* LaunchScreen.storyboard */,
@@ -154,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				391291AC1CC6934500855E3F /* LaunchScreen.storyboard in Resources */,
+				F2A25E7E1CC76EC50061D893 /* camera.png in Resources */,
 				391291A91CC6934500855E3F /* Assets.xcassets in Resources */,
+				F29AEFC41CC7A74200088F85 /* menu2.png in Resources */,
 				391291A71CC6934500855E3F /* Main.storyboard in Resources */,
 				391291C51CC6BFA500855E3F /* Star.png in Resources */,
 				391291C31CC6BFA500855E3F /* Plus.png in Resources */,
@@ -322,6 +330,7 @@
 				391291B21CC6934600855E3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

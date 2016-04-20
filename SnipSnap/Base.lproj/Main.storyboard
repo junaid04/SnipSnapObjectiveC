@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -30,9 +30,9 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubz-eV-xV1">
-                                        <rect key="frame" x="13" y="10" width="54" height="30"/>
-                                        <state key="normal" title="Camera">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubz-eV-xV1">
+                                        <rect key="frame" x="8" y="0.0" width="79" height="50"/>
+                                        <state key="normal" image="camera.png">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
@@ -41,8 +41,8 @@
                                 <constraints>
                                     <constraint firstItem="v75-mN-Idb" firstAttribute="centerX" secondItem="eOg-1P-t8T" secondAttribute="centerX" id="4xh-n2-2Cp"/>
                                     <constraint firstAttribute="height" constant="50" id="9cu-Tk-6GL"/>
-                                    <constraint firstItem="ubz-eV-xV1" firstAttribute="leading" secondItem="eOg-1P-t8T" secondAttribute="leading" constant="13" id="D88-CI-uQd"/>
-                                    <constraint firstItem="ubz-eV-xV1" firstAttribute="top" secondItem="eOg-1P-t8T" secondAttribute="top" constant="10" id="QDj-rk-JHn"/>
+                                    <constraint firstItem="ubz-eV-xV1" firstAttribute="leading" secondItem="eOg-1P-t8T" secondAttribute="leading" constant="8" id="D88-CI-uQd"/>
+                                    <constraint firstItem="ubz-eV-xV1" firstAttribute="top" secondItem="eOg-1P-t8T" secondAttribute="top" id="QDj-rk-JHn"/>
                                     <constraint firstItem="v75-mN-Idb" firstAttribute="centerY" secondItem="eOg-1P-t8T" secondAttribute="centerY" id="jYQ-an-Oyy"/>
                                 </constraints>
                             </view>
@@ -62,7 +62,11 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Redeem" id="HAh-Lw-FfY"/>
+                                    <navigationItem title="Redeem" id="HAh-Lw-FfY">
+                                        <barButtonItem key="rightBarButtonItem" image="menu2.png" id="c9s-0p-zVR">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
@@ -103,7 +107,11 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Crop &amp; Rotate" id="THJ-cH-HHJ"/>
+                                    <navigationItem title="Crop &amp; Rotate" id="THJ-cH-HHJ">
+                                        <barButtonItem key="rightBarButtonItem" image="menu2.png" id="ntT-ti-y6B">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gK-ju-Xef">
@@ -231,7 +239,11 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Coupon Details" id="RuS-Yz-j5Q"/>
+                                    <navigationItem title="Coupon Details" id="RuS-Yz-j5Q">
+                                        <barButtonItem key="rightBarButtonItem" image="menu2.png" id="yqm-Xg-o19">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muddle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJn-rB-sNT">
@@ -456,7 +468,11 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Coupon Details" id="Xgc-mp-CWQ"/>
+                                    <navigationItem title="Coupon Details" id="Xgc-mp-CWQ">
+                                        <barButtonItem key="rightBarButtonItem" image="menu2.png" id="uX0-Og-FUW">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muddle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OGO-T0-c9p">
@@ -701,8 +717,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="469"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZH0-sa-YAd">
-                                <rect key="frame" x="20" y="20" width="560" height="386"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZH0-sa-YAd">
+                                <rect key="frame" x="20" y="20" width="560" height="375"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sports Authority" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufa-y8-Rvl">
                                         <rect key="frame" x="210" y="54" width="132" height="21"/>
@@ -777,5 +793,7 @@
         <image name="Plus.png" width="48" height="48"/>
         <image name="Share.png" width="48" height="48"/>
         <image name="Star.png" width="50" height="50"/>
+        <image name="camera.png" width="50" height="50"/>
+        <image name="menu2.png" width="22" height="22"/>
     </resources>
 </document>
